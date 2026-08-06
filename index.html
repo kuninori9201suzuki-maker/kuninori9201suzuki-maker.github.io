@@ -78,7 +78,7 @@
       </ul>
       <div class="gnav__mobile-cta">
         <a class="btn btn--navy" href="tel:0534270388">電話する（053-427-0388）</a>
-        <a class="btn btn--primary" href="#contact">フォームで相談する</a>
+        <a class="btn btn--primary" href="#contact">メールで相談する</a>
       </div>
     </nav>
     <div class="header__cta">
@@ -398,7 +398,7 @@
         <tbody>
           <tr>
             <th>STEP 1</th>
-            <td><strong>お問い合わせ</strong><br>お電話またはフォームからご連絡ください。図面や仕様が固まっていない段階でも構いません。</td>
+            <td><strong>お問い合わせ</strong><br>お電話またはメールでご連絡ください。図面や仕様が固まっていない段階でも構いません。</td>
           </tr>
           <tr>
             <th>STEP 2</th>
@@ -494,7 +494,7 @@
           <a class="cta__tel-num" href="tel:0534270388">053-427-0388</a>
           <span class="cta__tel-time">平日 8:30 - 17:30（土日休業）</span>
         </span>
-        <a class="btn btn--primary" href="#contact">フォームで相談する<span class="btn__arrow">→</span></a>
+        <a class="btn btn--primary" href="#contact">メールで相談する<span class="btn__arrow">→</span></a>
       </div>
     </div>
   </section>
@@ -507,74 +507,26 @@
         <h2 class="shead__ja">お問い合わせ</h2>
         <p class="shead__lead">
           お急ぎの場合は、お電話がいちばん早くお答えできます。<br>
-          フォームは24時間受け付けており、内容を確認のうえ、担当者よりご連絡いたします。
+          図面や写真を添えて相談したい場合は、メールでお気軽にご連絡ください。
         </p>
       </div>
 
-      <div style="text-align:center;margin-bottom:60px;" class="reveal">
-        <a href="tel:0534270388" style="display:inline-block;border:2px solid var(--navy);padding:24px 40px;border-radius:4px;">
-          <span style="display:block;font-size:12px;letter-spacing:.1em;color:var(--gray);">お電話でのご相談・お見積り</span>
-          <span style="display:block;font-family:var(--f-num);font-size:40px;font-weight:700;color:var(--navy);line-height:1.25;">053-427-0388</span>
-          <span style="display:block;font-size:13px;color:var(--gray);">平日 8:30 - 17:30（土曜・日曜・祝日休業）</span>
+      <div class="contact-methods reveal">
+        <a class="contact-method" href="tel:0534270388">
+          <span class="contact-method__label">お電話でのご相談・お見積り</span>
+          <span class="contact-method__main">053-427-0388</span>
+          <span class="contact-method__sub">平日 8:30 - 17:30（土曜・日曜・祝日休業）</span>
+        </a>
+        <a class="contact-method" href="mailto:info@marunin.co.jp?subject=%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%8B%E3%82%89%E3%81%AE%E7%9B%B8%E8%AB%87">
+          <span class="contact-method__label">メールでのご相談</span>
+          <span class="contact-method__main contact-method__main--mail">info@marunin.co.jp</span>
+          <span class="contact-method__sub">作業内容・数量・希望納期・お困りの点をお書き添えください。</span>
         </a>
       </div>
-
-      <!--
-        ▼▼ 送信先の設定について（公開前に必ず設定してください）▼▼
-        この静的サイトにはサーバー処理がないため、フォーム送信には外部サービスを使います。
-        推奨: Formspree（https://formspree.io/）無料枠あり・日本語入力可・設定5分
-          1. Formspree でアカウント作成し、送信先メールに info@marunin.co.jp などを登録
-          2. 発行されるフォームID（例: xdorwkyz）を控える
-          3. 下の <form> の action を https://formspree.io/f/【フォームID】 に書き換える
-          4. method="POST" のまま保存し、テスト送信して受信を確認する
-        ※ 設定するまで、このフォームは送信されません。
-      -->
-      <form class="form reveal" action="#" method="POST" novalidate>
-        <div class="field">
-          <label class="field__label" for="company">貴社名 <span class="req">必須</span></label>
-          <input type="text" id="company" name="company" required autocomplete="organization" placeholder="例）株式会社〇〇製作所">
-        </div>
-        <div class="field">
-          <label class="field__label" for="name">ご担当者名 <span class="req">必須</span></label>
-          <input type="text" id="name" name="name" required autocomplete="name" placeholder="例）浜松 太郎">
-        </div>
-        <div class="field">
-          <label class="field__label" for="email">メールアドレス <span class="req">必須</span></label>
-          <input type="email" id="email" name="email" required autocomplete="email" placeholder="例）info@example.co.jp">
-        </div>
-        <div class="field">
-          <label class="field__label" for="tel">お電話番号 <span class="opt">任意</span></label>
-          <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="例）053-000-0000">
-          <p class="field__help">お急ぎの場合は、こちらからお電話でご連絡することがあります。</p>
-        </div>
-        <div class="field">
-          <label class="field__label" for="subject">お問い合わせの種類 <span class="req">必須</span></label>
-          <select id="subject" name="subject" required>
-            <option value="">選択してください</option>
-            <option>組立・組付の外注について</option>
-            <option>検査・選別・手直しについて</option>
-            <option>包装・梱包について</option>
-            <option>緊急・短納期のご相談</option>
-            <option>工場見学のお申し込み</option>
-            <option>その他</option>
-          </select>
-        </div>
-        <div class="field">
-          <label class="field__label" for="message">ご相談内容 <span class="req">必須</span></label>
-          <textarea id="message" name="message" required placeholder="例）樹脂部品へのクリップ取付とその後の全数外観検査をお願いしたいと考えています。来月からの立ち上げを想定しています。まだ図面は確定していません。"></textarea>
-          <p class="field__help">
-            以下をお書き添えいただけると、ご返信の際に具体的にお答えできます。<br>
-            ・作業の内容　・想定数量　・希望納期　・現在お困りの点
-          </p>
-        </div>
-        <div class="form__note">
-          いただいた個人情報は、お問い合わせへの対応およびご連絡の目的にのみ使用し、第三者へ提供することはありません。<br>
-          他社様の製品を取り扱っている都合上、守秘義務には十分に配慮して対応いたします。
-        </div>
-        <div class="form__submit">
-          <button class="btn btn--primary" type="submit">この内容で送信する<span class="btn__arrow">→</span></button>
-        </div>
-      </form>
+      <div class="form__note reveal">
+        他社様の製品を取り扱っている都合上、守秘義務には十分に配慮して対応いたします。<br>
+        図面や仕様が固まっていない段階でも構いませんので、まずは現在の状況をお聞かせください。
+      </div>
     </div>
   </section>
 
