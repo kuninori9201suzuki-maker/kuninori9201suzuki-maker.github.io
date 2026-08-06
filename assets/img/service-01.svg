@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="自動車部品の組付作業">
+  <defs>
+    <linearGradient id="bgs1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="60%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgs1)"/>
+  <rect x="0" y="560" width="1200" height="240" fill="#0d233c"/>
+  <rect x="0" y="552" width="1200" height="8" fill="#e8622c" opacity="0.85"/>
+
+  <!-- 人物 -->
+  <g transform="translate(300 0)">
+    <circle cx="0" cy="330" r="46" fill="#ffffff"/>
+    <path d="M-78 610 C -78 470 -55 400 0 400 C 55 400 78 470 78 610 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- 自動車部品（ギア風） -->
+  <g transform="translate(720 430)" fill="#ffffff" opacity="0.9">
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#ffffff" stroke-width="18"/>
+    <circle cx="0" cy="0" r="34" fill="#0f2947"/>
+    <g stroke="#ffffff" stroke-width="18">
+      <line x1="0" y1="-108" x2="0" y2="-128"/>
+      <line x1="0" y1="108" x2="0" y2="128"/>
+      <line x1="-108" y1="0" x2="-128" y2="0"/>
+      <line x1="108" y1="0" x2="128" y2="0"/>
+      <line x1="76" y1="76" x2="90" y2="90"/>
+      <line x1="-76" y1="76" x2="-90" y2="90"/>
+      <line x1="76" y1="-76" x2="90" y2="-90"/>
+      <line x1="-76" y1="-76" x2="-90" y2="-90"/>
+    </g>
+  </g>
+  <circle cx="960" cy="480" r="40" fill="#e8622c"/>
+
+  <!-- ラベル -->
+  <g transform="translate(60 70)">
+    <rect x="0" y="0" width="120" height="34" rx="4" fill="#e8622c"/>
+    <text x="60" y="23" fill="#fff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">CASE 01</text>
+  </g>
+  <text x="60" y="150" fill="#ffffff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="32" font-weight="700">自動車部品の組付</text>
+</svg>

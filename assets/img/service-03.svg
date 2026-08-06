@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="清掃用具の組付・梱包">
+  <defs>
+    <linearGradient id="bgs3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="60%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgs3)"/>
+  <rect x="0" y="560" width="1200" height="240" fill="#0d233c"/>
+  <rect x="0" y="552" width="1200" height="8" fill="#e8622c" opacity="0.85"/>
+
+  <!-- 人物 -->
+  <g transform="translate(300 0)">
+    <circle cx="0" cy="330" r="46" fill="#ffffff"/>
+    <path d="M-78 610 C -78 470 -55 400 0 400 C 55 400 78 470 78 610 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- 梱包箱＋清掃用具（柄付きブラシ） -->
+  <rect x="620" y="470" width="220" height="130" rx="6" fill="#ffffff" opacity="0.95"/>
+  <path d="M620 500 L840 500" stroke="#e8622c" stroke-width="10"/>
+  <path d="M730 470 L730 600" stroke="#e8622c" stroke-width="10"/>
+
+  <g transform="translate(920 380)">
+    <rect x="-8" y="0" width="16" height="150" rx="8" fill="#ffffff"/>
+    <rect x="-34" y="140" width="68" height="34" rx="10" fill="#e8622c"/>
+  </g>
+
+  <!-- ラベル -->
+  <g transform="translate(60 70)">
+    <rect x="0" y="0" width="120" height="34" rx="4" fill="#e8622c"/>
+    <text x="60" y="23" fill="#fff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">CASE 03</text>
+  </g>
+  <text x="60" y="150" fill="#ffffff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="32" font-weight="700">清掃用具の組付・梱包</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="手元のアップ（組付作業中）">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="55%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- 作業台 -->
+  <rect x="0" y="640" width="1200" height="260" fill="#0d233c"/>
+  <rect x="0" y="632" width="1200" height="10" fill="#e8622c" opacity="0.85"/>
+
+  <!-- 部品トレー -->
+  <rect x="120" y="560" width="300" height="70" rx="8" fill="#ffffff" opacity="0.08"/>
+  <circle cx="160" cy="595" r="16" fill="#e8622c" opacity="0.7"/>
+  <circle cx="205" cy="595" r="16" fill="#ffffff" opacity="0.5"/>
+  <circle cx="250" cy="595" r="16" fill="#e8622c" opacity="0.7"/>
+  <circle cx="295" cy="595" r="16" fill="#ffffff" opacity="0.5"/>
+  <circle cx="340" cy="595" r="16" fill="#e8622c" opacity="0.7"/>
+
+  <!-- 手（左） -->
+  <g transform="translate(560 560)">
+    <path d="M0 260 C -20 190 -30 120 -18 70 C -10 40 10 25 22 45 L 28 130 L 40 50 C 42 25 62 22 66 48 L 70 135 L 80 55 C 84 30 104 30 106 56 L 108 140 L 116 70 C 120 46 140 48 140 74 C 140 130 150 190 130 260 Z"
+      fill="#f2c9a0"/>
+  </g>
+
+  <!-- 手（右）で部品を掴む -->
+  <g transform="translate(700 540)">
+    <path d="M180 280 C 205 210 216 140 200 88 C 192 58 170 46 160 68 L 158 150 L 142 62 C 138 36 116 36 116 62 L 118 150 L 100 58 C 96 32 74 34 76 60 L 82 150 L 60 78 C 54 52 32 58 36 84 C 46 140 40 200 62 280 Z"
+      fill="#f2c9a0"/>
+  </g>
+
+  <!-- 組み付け中の部品 -->
+  <rect x="600" y="580" width="130" height="90" rx="10" fill="#ffffff"/>
+  <rect x="600" y="580" width="130" height="90" rx="10" fill="none" stroke="#1a3f66" stroke-width="4"/>
+  <circle cx="640" cy="625" r="10" fill="#1a3f66"/>
+  <circle cx="690" cy="625" r="10" fill="#1a3f66"/>
+  <rect x="622" y="648" width="86" height="10" rx="5" fill="#e8622c"/>
+
+  <!-- ラベル -->
+  <g transform="translate(60 70)">
+    <rect x="0" y="0" width="150" height="34" rx="4" fill="#e8622c"/>
+    <text x="75" y="23" fill="#fff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">HAND WORK</text>
+  </g>
+  <text x="60" y="150" fill="#ffffff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="34" font-weight="700">手作業による組付</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="60%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- ロゴマーク -->
+  <circle cx="120" cy="120" r="46" fill="#ffffff"/>
+  <text x="120" y="136" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="42" font-weight="700" fill="#1a3f66">丸</text>
+  <text x="182" y="112" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="30" font-weight="700" fill="#ffffff">丸忍工業所</text>
+  <text x="182" y="140" font-family="'Helvetica Neue',Arial,sans-serif" font-size="15" letter-spacing="2" fill="#9fb4cc">MARUNIN KOGYOSHO</text>
+
+  <!-- キャッチコピー -->
+  <text x="120" y="300" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="56" font-weight="700" fill="#ffffff">機械化できない仕事を、</text>
+  <text x="120" y="372" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="56" font-weight="700" fill="#ffffff">人の手で、<tspan fill="#ffb083">すぐに。</tspan></text>
+
+  <text x="120" y="460" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="24" fill="#c9d6e4">静岡県浜松市｜手作業組立・検査の専門外注</text>
+
+  <rect x="120" y="500" width="10" height="56" fill="#e8622c"/>
+  <text x="150" y="530" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="22" font-weight="700" fill="#ffffff">創業1965年・60年の操業実績</text>
+  <text x="150" y="558" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif" font-size="22" font-weight="700" fill="#ffffff">浜松市内2工場</text>
+</svg>

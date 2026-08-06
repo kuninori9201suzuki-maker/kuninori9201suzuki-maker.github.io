@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="工場全景／作業する人が10名以上写る引き">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12304f"/>
+      <stop offset="55%" stop-color="#0d2440"/>
+      <stop offset="100%" stop-color="#081a2f"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <g transform="translate(960 540)" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic',sans-serif">
+    <g transform="translate(0 -78)" opacity="0.5">
+      <rect x="-34" y="-24" width="68" height="48" rx="7" fill="none" stroke="#fff" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#fff" stroke-width="2.5"/>
+      <rect x="-13" y="-33" width="26" height="9" rx="3" fill="#fff"/>
+    </g>
+    <text y="-16" fill="#e8622c" font-size="15" font-weight="700" letter-spacing="3">PHOTO 01</text>
+    <text y="26" fill="#ffffff" font-size="30" font-weight="700" letter-spacing="1">工場全景／作業する人が10名以上写る引き</text>
+    <text y="62" fill="#9fb4cc" font-size="16" letter-spacing="0.5">最重要カット・横向き・シャッター全開で明るく</text>
+  </g>
+  <rect x="14" y="14" width="1892" height="1052" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1.5" stroke-dasharray="10 8"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="目視検査の様子">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="55%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg3)"/>
+
+  <!-- 検査台 -->
+  <rect x="0" y="620" width="1200" height="280" fill="#0d233c"/>
+  <rect x="0" y="612" width="1200" height="10" fill="#e8622c" opacity="0.85"/>
+
+  <!-- 人物（検査官・正面やや大きめ） -->
+  <g transform="translate(430 0)">
+    <circle cx="0" cy="360" r="58" fill="#ffffff"/>
+    <path d="M-100 700 C -100 520 -70 430 0 430 C 70 430 100 520 100 700 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- 検査対象の製品 -->
+  <rect x="640" y="560" width="220" height="140" rx="10" fill="#ffffff"/>
+  <rect x="640" y="560" width="220" height="140" rx="10" fill="none" stroke="#1a3f66" stroke-width="5"/>
+  <circle cx="700" cy="610" r="12" fill="#1a3f66"/>
+  <circle cx="800" cy="610" r="12" fill="#1a3f66"/>
+  <rect x="670" y="650" width="160" height="12" rx="6" fill="#e8622c"/>
+
+  <!-- ルーペ（目視検査の象徴） -->
+  <g transform="translate(560 470)">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#e8622c" stroke-width="10"/>
+    <line x1="38" y1="38" x2="90" y2="90" stroke="#e8622c" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="40" fill="#ffffff" opacity="0.15"/>
+  </g>
+
+  <!-- チェックマーク -->
+  <g transform="translate(950 480)">
+    <circle cx="0" cy="0" r="46" fill="#e8622c"/>
+    <path d="M-20 2 L-6 18 L22 -16" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ラベル -->
+  <g transform="translate(60 70)">
+    <rect x="0" y="0" width="150" height="34" rx="4" fill="#e8622c"/>
+    <text x="75" y="23" fill="#fff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">INSPECTION</text>
+  </g>
+  <text x="60" y="150" fill="#ffffff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="34" font-weight="700">目視検査・全数選別</text>
+</svg>

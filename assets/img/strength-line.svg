@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="複数名が並んで作業する様子">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204d7c"/>
+      <stop offset="55%" stop-color="#1a3f66"/>
+      <stop offset="100%" stop-color="#0f2947"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg2)"/>
+
+  <!-- 作業台ライン -->
+  <rect x="0" y="560" width="1200" height="30" fill="#e8622c" opacity="0.85"/>
+  <rect x="0" y="590" width="1200" height="310" fill="#0d233c"/>
+
+  <!-- 人物×5（作業台に並ぶ、頭+胴の簡易シルエット） -->
+  <g fill="#ffffff" opacity="0.92">
+    <!-- person template repeated -->
+    <g transform="translate(150 0)">
+      <circle cx="0" cy="330" r="42"/>
+      <path d="M-70 590 C -70 460 -50 400 0 400 C 50 400 70 460 70 590 Z"/>
+    </g>
+    <g transform="translate(390 0)">
+      <circle cx="0" cy="320" r="42"/>
+      <path d="M-70 590 C -70 450 -50 390 0 390 C 50 390 70 450 70 590 Z"/>
+    </g>
+    <g transform="translate(630 0)">
+      <circle cx="0" cy="330" r="42"/>
+      <path d="M-70 590 C -70 460 -50 400 0 400 C 50 400 70 460 70 590 Z"/>
+    </g>
+    <g transform="translate(870 0)">
+      <circle cx="0" cy="322" r="42"/>
+      <path d="M-70 590 C -70 452 -50 392 0 392 C 50 392 70 452 70 590 Z"/>
+    </g>
+    <g transform="translate(1080 0)">
+      <circle cx="0" cy="330" r="38"/>
+      <path d="M-62 590 C -62 462 -44 404 0 404 C 44 404 62 462 62 590 Z"/>
+    </g>
+  </g>
+
+  <!-- 腕（テーブルに手をついている表現） -->
+  <g fill="#f2c9a0">
+    <rect x="120" y="555" width="60" height="20" rx="10"/>
+    <rect x="360" y="555" width="60" height="20" rx="10"/>
+    <rect x="600" y="555" width="60" height="20" rx="10"/>
+    <rect x="840" y="555" width="60" height="20" rx="10"/>
+    <rect x="1050" y="555" width="60" height="20" rx="10"/>
+  </g>
+
+  <!-- 部品箱 -->
+  <rect x="230" y="610" width="70" height="50" rx="6" fill="#e8622c" opacity="0.7"/>
+  <rect x="470" y="610" width="70" height="50" rx="6" fill="#ffffff" opacity="0.5"/>
+  <rect x="710" y="610" width="70" height="50" rx="6" fill="#e8622c" opacity="0.7"/>
+  <rect x="950" y="610" width="70" height="50" rx="6" fill="#ffffff" opacity="0.5"/>
+
+  <!-- ラベル -->
+  <g transform="translate(60 70)">
+    <rect x="0" y="0" width="180" height="34" rx="4" fill="#e8622c"/>
+    <text x="90" y="23" fill="#fff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">TEAM WORK</text>
+  </g>
+  <text x="60" y="150" fill="#ffffff" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="34" font-weight="700">複数名で並んで作業</text>
+</svg>
